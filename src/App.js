@@ -3,8 +3,8 @@ import { Route, Switch } from "react-router-dom";
 
 // My Custom Components
 import SearchPage from './search/Search';
-import DetailsPage from "./details/Details";
-import PageNotFound from "./pages/PageNotFound";
+// import DetailsPage from "./details/Details";
+// import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
@@ -14,11 +14,11 @@ function App() {
       </Route>
 
       <Route path="/details/:login">
-        <DetailsPage />
+        {/* <DetailsPage /> */}
       </Route>
 
       <Route path="*">
-        <PageNotFound />
+        <p>Page not Found</p>
       </Route>
     </Switch>
   );
