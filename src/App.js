@@ -6,6 +6,7 @@ import SearchPage from './search/Search';
 import DetailsPage from "./details/Details";
 import PageNotFound from "./pages/PageNotFound";
 
+
 function App() {
   return (
     // Switch to display only one page
